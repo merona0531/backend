@@ -6,7 +6,7 @@ app = Flask(__name__)
 CORS(app)  # CORS 설정
 
 # CSV 파일 경로
-CSV_FILE_PATH = "C:/Users/MAN/intellijspace/test/backend/data/program.csv"
+CSV_FILE_PATH = "./data/program.csv"
 
 # 데이터를 로드하는 함수
 def load_filtered_program_data(region=None, time=None, days=None, page=1, limit=20):
